@@ -1,0 +1,86 @@
+body {
+  background-color: #e6ecf0;
+  margin-top: 24px;
+}
+
+a {
+  color: #1da1f2;
+}
+
+@media screen and (min-width: 1260px) {
+  .container {
+    width: 1190;
+  }
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar-nav > li a {
+  color: #66757f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input-search {
+  font-size: 13px;
+}
+
+.input-search,
+.btn-search {
+  border-radius: 21px;
+  border: 1px solid #e6ecf0;
+}
+
+.btn-search {
+  background-color: #fff;
+}
+
+.navbar-search-icon {
+  background-color: #66757f;
+}
+
+.btn-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-search-bar {
+  border-radius: 100px;
+  color: #fff;
+  background-color: #4ab3f4;
+  border: 1px solid #1da1f2;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-search-bar:hover {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  color: #fff;
+}
+
+.navbar form {
+  margin-right: 15px;
+}
+
+.navbar-user-dropdown {
+  margin-right: 15px;
+}
+
+.profile-stats li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.profile-stats a {
+  display: block;
+}
