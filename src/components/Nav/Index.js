@@ -1,4 +1,5 @@
 import React from 'react';
+import './Index.css';
 
 const Nav = () => (
   <nav className="navbar navbar-toggleable-md fixed-top profile-stats">

@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './components/Nav/Index';
-import MainContainer from './components/Main-Container/index';
+import MainContainer from './components/Main-Container/Index';
 
 import './App.css';
 
