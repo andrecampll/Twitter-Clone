@@ -3,7 +3,7 @@ import './Index.css';
 
 const Nav = () => (
   <nav className="navbar navbar-toggleable-md fixed-top profile-stats">
-    <div className="collapse navbar-collapse container">
+    <div id="menu" className="collapse navbar-collapse container">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item active">
           <a className="nav-link">

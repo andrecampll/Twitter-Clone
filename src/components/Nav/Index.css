@@ -9,19 +9,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+.navbar-nav {
+  display: contents !important;
 }
 
 .navbar-nav > li a {
