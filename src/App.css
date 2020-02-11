@@ -1,8 +1,15 @@
-body {
-  background-color: #e6ecf0;
-  margin-top: 24px;
+* {
+  margin: 0;
+  padding: 0; /*reset dos elementos para espaçamentos nativos */
+  box-sizing: border-box;/*faz com q o padding não aumente o tamanho da width
+    e aplica padding interno caso ultrapasse a width
+  */
 }
 
-a {
-  color: #1da1f2;
+body {
+  background-color: #e6ecf0;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  /*suavidade da fonte*/
 }

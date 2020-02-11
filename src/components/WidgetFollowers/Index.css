@@ -1,0 +1,32 @@
+div.wrapper aside.profile .widget {
+    margin-top: 20px; 
+  }
+  
+  div.wrapper aside.profile .widget strong {
+    font-weight: normal;
+    color: #3bb9e3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  div.wrapper aside.profile .widget strong img {
+    margin-right: 5px;
+  }
+  
+  div.wrapper aside.profile .followers ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+  }
+  
+  div.wrapper aside.profile .followers ul li img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #d0d5d9;
+    flex: 1 0 auto;
+    margin: 0 5px 10px 0;
+  }
