@@ -16,6 +16,7 @@ div.wrapper aside.profile img.avatar {
 }
 
 div.wrapper aside.profile h1 {
+  font-weight: bold;
   font-size: 21px;
   color: #1f2226;
   margin-top: 10px;

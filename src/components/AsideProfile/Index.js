@@ -7,6 +7,8 @@ import born from '../../assets/images/born.svg';
 
 import './Index.css';
 import WidgetFollowers from '../WidgetFollowers/Index';
+import WidgetImages from '../WidgetImages/Index';
+
 
 const AsideProfile = () => {
     return (
@@ -24,6 +26,7 @@ const AsideProfile = () => {
             </ul>
 
             <WidgetFollowers />
+            <WidgetImages/>
         </aside>
     );
 }

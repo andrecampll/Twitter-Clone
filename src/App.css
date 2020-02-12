@@ -13,3 +13,9 @@ body {
   -webkit-font-smoothing: antialiased !important;
   /*suavidade da fonte*/
 }
+
+div.wrapper aside.profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
